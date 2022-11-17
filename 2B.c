@@ -1,4 +1,5 @@
-/*Write a 'C' program to create Circularly Doubly Linked list and display it*/
+/*Write a 'C' program to create Circularly Doubly Linked list and display it. 
+Output problem - when display is clicked reverse list is displayed.*/
 
 
 #include<stdio.h>  

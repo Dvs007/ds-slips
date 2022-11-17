@@ -3,7 +3,7 @@
 -	Pop
 -	Display
 -	Exit
-*/
+Output problem - When display is clicked goes in infinite loop*/
 #include<stdio.h>
 #include<process.h>
 #include<stdlib.h>
@@ -13,10 +13,6 @@ struct node
 	int num;
 	struct node *next;
 }*top,*new;
-
-void push();
-void pop();
-void display();
 
 void push()
 {
@@ -61,7 +57,7 @@ void display()
 	}
 	else
 	{
-		while(temp->next !=NULL)
+		while(temp->next!=NULL)
 		{
 			printf("%d--->",temp->num);
 			temp=temp->next;
@@ -90,6 +86,7 @@ void main()
 				break;
 			case 4:
 				exit(0);
+				break;
 			default:
 				 printf("Invalid choice");		
 		}

@@ -1,6 +1,8 @@
 /*Write a 'C' program which accept the string and reverse each word of the string using Static implementation of stack.
 Example: Input - This is an input string
-   Output - sihTsinatupnignirts*/
+   Output - sihTsinatupnignirts
+   
+   Output problem - When srting is entered goes in infinite loop*/
 
 #include<stdio.h>
 #include<conio.h>
@@ -50,5 +52,4 @@ while(top!=-1)
 {
 printf("%c",pop());
 }
-getch();
 }

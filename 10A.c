@@ -1,4 +1,5 @@
-/*Write a 'C' program to read 'n' integers and store them in a Binary search tree and display the nodes level wise.*/
+/*Write a 'C' program to read 'n' integers and store them in a Binary search tree and display the nodes level wise.
+"Not a run time program"*/
 #include<stdio.h>
 #include<stdlib.h>
     struct node

@@ -1,7 +1,6 @@
 /*Write a program to create two singly linked list of 
-elements of type integer and find the union of the linked lists. (Accept elements in the sorted order)*/
-
-
+elements of type integer and find the union of the linked lists. (Accept elements in the sorted order)
+Input problem - "Didnt accept elements in sorted order" */
 
 #include<stdio.h>
 #include<stdlib.h>

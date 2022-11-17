@@ -2,7 +2,9 @@
 -	To create linked list.
 -	To display linked list
 -	To search node in linked list.
--	Insert at last position*/
+-	Insert at last position
+
+Output problem - when display is clicked reverse list is displayed.*/
 
 
 #include<stdio.h>  
